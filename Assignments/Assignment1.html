@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Webpage Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .social-links a {
+            color: #fff;
+            margin-left: 15px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        /* Menu Bar */
+        nav {
+            background: #555;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 0;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        /* Layout */
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+
+        /* Sidebar */
+        aside {
+            width: 25%;
+            background: #fff;
+            padding: 20px;
+            margin-right: 20px;
+        }
+
+        aside h3 {
+            margin-bottom: 10px;
+        }
+
+        aside ul {
+            list-style: square;
+            padding-left: 20px;
+        }
+
+        /* Main Content */
+        main {
+            width: 75%;
+        }
+
+        .content-boxes {
+            display: flex;
+            gap: 20px;
+        }
+
+        .box {
+            background: #fff;
+            padding: 15px;
+            width: 33.33%;
+            text-align: center;
+        }
+
+        .box img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            margin: 10px 0;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">MyLogo</div>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </header>
+
+    <!-- Menu Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Layout -->
+    <div class="container">
+        
+        <!-- Sidebar -->
+        <aside>
+            <h3>Sidebar</h3>
+            <p>Custom data can be placed here.</p>
+            <ul>
+                <li>Latest News</li>
+                <li>Quick Links</li>
+                <li>Updates</li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main>
+            <div class="content-boxes">
+                <div class="box">
+                    <h3>Title One</h3>
+                    <img src="https://via.placeholder.com/300x150" alt="Image 1">
+                    <p>This is a sample description for the first content box.</p>
+                </div>
+
+                <div class="box">
+                    <h3>Title Two</h3>
+                    <img src="https://via.placeholder.com/300x150" alt="Image 2">
+                    <p>This is a sample description for the second content box.</p>
+                </div>
+
+                <div class="box">
+                    <h3>Title Three</h3>
+                    <img src="https://via.placeholder.com/300x150" alt="Image 3">
+                    <p>This is a sample description for the third content box.</p>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>yogita sawant.</p>
+    </footer>
+
+</body>
+</html>
